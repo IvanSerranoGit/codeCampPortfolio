@@ -171,3 +171,29 @@ footer {
     font-size: 20px;
 
 }
+
+@media(max-width: 480px){
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-logo{
+        width: 40px;
+        margin-top: 5px;
+    }
+    .welcome-section h1{
+        font-size: 35px;
+    }
+    .welcome-section p{
+        font-size: 25px;
+    }
+    .contact-section{
+        padding: 0;
+    }
+    .nav-bar li{
+        padding-right: 10px;
+    }
+    figure span{
+        display: none;
+    }
+}
